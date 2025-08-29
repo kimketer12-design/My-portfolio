@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keter Elphas Kimutai - Automation Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7fafc;
+        }
+        .container {
+            max-width: 8.5in; /* Standard letter paper width */
+            margin: 0 auto;
+            padding: 1.5in 0.75in;
+        }
+        .section-header {
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .list-item {
+            display: flex;
+            align-items: flex-start;
+        }
+        .list-item-icon {
+            margin-right: 0.5rem;
+            color: #4a5568;
+            font-size: 1.25rem;
+            line-height: 1.25rem;
+        }
+        @media print {
+            body {
+                background-color: #fff;
+            }
+            .container {
+                padding: 0.5in;
+            }
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <div class="container bg-white shadow-xl rounded-lg overflow-hidden">
+        <header class="text-center mb-10">
+            <h1 class="text-4xl font-extrabold text-gray-900 mb-2">Portfolio</h1>
+            <h2 class="text-2xl font-semibold text-gray-700">Keter Elphas Kimutai</h2>
+        </header>
+
+        <section class="mb-12">
+            <div class="flex items-center space-x-2 mb-6">
+                <span class="text-2xl">⚡</span>
+                <h3 class="text-xl font-bold uppercase tracking-wide section-header">Automation Portfolio Examples</h3>
+            </div>
+            
+            <div class="space-y-10">
+                <!-- Project 1: Healthcare Appointment Follow-Up Automation -->
+                <div class="rounded-lg border border-gray-200 p-6 bg-gray-50">
+                    <h4 class="text-xl font-bold text-gray-900 mb-2">1. Healthcare Appointment Follow-Up Automation</h4>
+                    <p class="text-sm text-gray-600 mb-4">Client Type: Private medical clinic</p>
+
+                    <div class="space-y-4">
+                        <div>
+                            <p class="font-medium text-gray-800 mb-1">Problem:</p>
+                            <p class="text-gray-600">Patients often missed appointments because there was no reminder or follow-up system in place. This led to revenue loss and poor patient flow management.</p>
+                        </div>
+                        <div>
+                            <p class="font-medium text-gray-800 mb-1">Solution:</p>
+                            <ul class="list-none space-y-2">
+                                <li class="list-item">
+                                    <span class="list-item-icon">✓</span>
+                                    <p>Set up a CRM pipeline with stages (New Lead → Booked → Attended → Follow-Up).</p>
+                                </li>
+                                <li class="list-item">
+                                    <span class="list-item-icon">✓</span>
+                                    <p>Built automated reminders via SMS & email (24h and 2h before appointments).</p>
+                                </li>
+                                <li class="list-item">
+                                    <span class="list-item-icon">✓</span>
+                                    <p>Configured a reactivation sequence for missed appointments (auto call + SMS asking to rebook).</p>
+                                </li>
+                                <li class="list-item">
+                                    <span class="list-item-icon">✓</span>
+                                    <p>Created a weekly report dashboard to track no-shows and rescheduled visits.</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p class="font-medium text-gray-800 mb-1">Outcome:</p>
+                            <ul class="list-none space-y-2">
+                                <li class="list-item">
+                                    <span class="list-item-icon">✓</span>
+                                    <p>30% reduction in no-shows within the first two months.</p>
+                                </li>
+                                <li class="list-item">
+                                    <span class="list-item-icon">✓</span>
+                                    <p>Increased rebookings and improved patient satisfaction.</p>
+                                </li>
+                                <li class="list-item">
+                                    <span class="list-item-icon">✓</span>
+                                    <p>Gave management clear visibility of patient flow.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: University Student Onboarding Automation -->
+                <div class="rounded-lg border border-gray-200 p-6 bg-gray-50">
+                    <h4 class="text-xl font-bold text-gray-900 mb-2">2. University Student Onboarding Automation</h4>
+                    <p class="text-sm text-gray-600 mb-4">Client Type: University administrative department</p>
+
+                    <div class="space-y-4">
+                        <div>
+                            <p class="font-medium text-gray-800 mb-1">Problem:</p>
+                            <p class="text-gray-600">New student applications were being processed manually, which caused delays in acceptance and onboarding.</p>
+                        </div>
+                        <div>
+                            <p class="font-medium text-gray-800 mb-1">Solution:</p>
+                            <ul class="list-none space-y-2">
+                                <li class="list-item">
+                                    <span class="list-item-icon">✓</span>
+                                    <p>Built an automated workflow to capture applications from online forms.</p>
+                                </li>
+                                <li class="list-item">
+                                    <span class="list-item-icon">✓</span>
+                                    <p>Configured email sequences (confirmation, document checklist, acceptance notice).</p>
+                                </li>
+                                <li class="list-item">
+                                    <span class="list-item-icon">✓</span>
+                                    <p>Added task automation to notify staff when a student’s file needed manual approval.</p>
+                                </li>
+                                <li class="list-item">
+                                    <span class="list-item-icon">✓</span>
+                                    <p>Designed a dashboard for tracking application stages in real time.</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p class="font-medium text-gray-800 mb-1">Outcome:</p>
+                            <ul class="list-none space-y-2">
+                                <li class="list-item">
+                                    <span class="list-item-icon">✓</span>
+                                    <p>Reduced average processing time from 3 days to a few hours.</p>
+                                </li>
+                                <li class="list-item">
+                                    <span class="list-item-icon">✓</span>
+                                    <p>Improved communication with applicants.</p>
+                                </li>
+                                <li class="list-item">
+                                    <span class="list-item-icon">✓</span>
+                                    <p>Freed up staff to focus on high-priority student support.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="mt-12 pt-6 text-center text-gray-500 text-sm border-t border-gray-200">
+            <p>These two portfolio examples show you can analyze a problem, build an automation, and deliver measurable results — exactly what Julius (Ampy) is looking for.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
